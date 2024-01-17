@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.user-details {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+img {
+    max-width: 200px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#userBio {
+    max-width: 500px;
+    word-wrap: break-word;
+}
+
+#repositories {
+    margin-bottom: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+.repository {
+    width: 214px;
+}
+.repository a {
+    word-wrap: break-word;
+}
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrow {
+    font-size: 20px;
+    cursor: pointer;
+    padding: 0 20px;
+}
+
+.pagination-numbers {
+    display: flex;
+}
+
+.pagination-number {
+    padding: 5px 10px;
+    margin-right: 5px;
+    cursor: pointer;
+    background-color: #ddd;
+    border-radius: 5px;
+}
+
+.loader {
+    border: 6px solid #f3f3f3;
+    border-top: 6px solid #3498db;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    display: none;
+}
